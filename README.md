@@ -1,4 +1,4 @@
-# WebSockets Serving
+# WebSockets Serving [简体中文](README.md)
 
 <p align="center">
     <a href="http://perfect.org/get-involved.html" target="_blank">
@@ -92,7 +92,7 @@ func addWebSocketsHandler() {
 ```
 ## Handling WebSocket Sessions
 
- A WebSocket service handler must impliment the `WebSocketSessionHandler` protocol.
+ A WebSocket service handler must implement the `WebSocketSessionHandler` protocol.
  This protocol requires the function `handleSession(request: WebRequest, socket: WebSocket)`.
  This function will be called once the WebSocket connection has been established,
  at which point it is safe to begin reading and writing messages.
